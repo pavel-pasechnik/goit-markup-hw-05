@@ -739,7 +739,7 @@ footer .footer-paragraph {
 
 .contact-form-input-div {
 	position: relative;
-	margin: 0 0 8px 0;
+	margin-bottom: 8px;
 }
 
 .contact-form-label {
@@ -779,10 +779,6 @@ footer .footer-paragraph {
 
 .contact-form-input:focus+.contact-form-icon {
 	fill: #4D5AE5;
-}
-
-.contact-form-input-div {
-	margin-bottom: 16px;
 }
 
 .contact-form-user-comment {
@@ -835,9 +831,6 @@ footer .footer-paragraph {
 }
 
 .contact-form-checkbox-label {
-	display: inline-flex;
-	justify-content: center;
-	align-items: center;
 	color: #8E8F99;
 	font-size: 12px;
 	font-weight: 400;
