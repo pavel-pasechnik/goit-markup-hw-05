@@ -346,6 +346,7 @@
 			</div>
 		</section>
 	</main>
+	<!-- Footer -->
 	<footer class="footer">
 		<div class="container">
 			<div class="no-wrap">
@@ -389,15 +390,14 @@
 				</ul>
 			</div>
 			<div class="subscribe">
-				<form>
-					<label class="subscribe-label" for="subscribe-user-email">Subscribe</label>
-					<div class="subscribe-input-group">
-						<input class="subscribe-input" type="email" id="subscribe-user-email" name="user_email" placeholder="E-mail"
-							required>
-						<button class="subscribe-button" type="submit">Subscribe<svg class="paper-plane" width="24" height="24">
-								<use href="./images/icons.svg#icon-paper-plan"></use>
-							</svg></button>
-					</div>
+				<p class="subscribe-label">Subscribe</p>
+				<form class="subscribe-input-group">
+					<label for="subscribe-user-email" name="subscribe-user-email-label"></label>
+					<input class="subscribe-input" type="email" id="subscribe-user-email" name="user_email" placeholder="E-mail"
+						required>
+					<button class="subscribe-button" type="submit">Subscribe<svg class="paper-plane" width="24" height="24">
+							<use href="./images/icons.svg#icon-paper-plan"></use>
+						</svg></button>
 				</form>
 			</div>
 		</div>
@@ -405,8 +405,8 @@
 	<!-- Modal -->
 	<div class="backdrop">
 		<div class="modal">
-			<button type="submit" class="close-button">
-				<svg class="close-button-icon" width="24" height="24" aria-label="modal close button">
+			<button type="button" class="close-button">
+				<svg class="close-button-icon" width="8" height="8" aria-label="modal close button">
 					<use href="./images/icons.svg#icon-close"></use>
 				</svg>
 			</button>
@@ -415,9 +415,9 @@
 				<div class="contact-form-input-div">
 					<label class="contact-form-label" for="user-name">Name</label>
 					<div class="contact-form-input-wrapper">
-						<input class="contact-form-input" id="user-name" name="user_name" type="text"
+						<input class="contact-form-input" id="user-name" name="user-name" type="text"
 							pattern="[A-Za-zА-Яа-яІіЇїҐґЄєЁё']+" title="Your Name" autofocus required>
-						<svg class="contact-form-icon" width="18" height="18" aria-label="user name">
+						<svg class="contact-form-icon" width="18" height="24" aria-label="user name">
 							<use href="./images/icons.svg#icon-person"></use>
 						</svg>
 					</div>
@@ -443,17 +443,17 @@
 				</div>
 				<div class=" contact-form-input-div">
 					<label class="contact-form-label" for="user-comment">Comment</label>
-					<textarea class="contact-form-user-comment" name="user_comment" id="user-comment"
+					<textarea class="contact-form-user-comment" name="user-comment" id="user-comment"
 						placeholder="Text input"></textarea>
 				</div>
 				<div class="contact-form-checkbox-div">
 					<input class="contact-form-checkbox visually-hidden" id="user-privacy" type="checkbox" aria-label="checkbox"
 						name="user-privacy" value="true" required>
 					<label for="user-privacy" class="contact-form-checkbox-label"><span class="contact-form-own-checkbox"><svg
-								class="contact-form-own-checkbox-icon" width="16" height="16" aria-label="checkmark-icon">
+								class="contact-form-own-checkbox-icon" width="10" height="8" aria-label="checkmark-icon">
 								<use href="./images/icons.svg#icon-property-click"></use>
-							</svg></span>I
-						accept the terms and conditions of the <a class="privacy-link" href="#">Privacy Policy</a></label>
+							</svg></span>I accept the terms and conditions of the<a class="privacy-link" href="#"> Privacy
+							Policy</a></label>
 				</div>
 				<button class="contact-form-submit" type="submit">Send</button>
 			</form>
