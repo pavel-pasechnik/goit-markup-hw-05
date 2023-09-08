@@ -742,6 +742,10 @@ footer .footer-paragraph {
 	margin-bottom: 8px;
 }
 
+.contact-form-input-comment {
+	margin-bottom: 16px;
+}
+
 .contact-form-label {
 	display: block;
 	color: #8E8F99;
