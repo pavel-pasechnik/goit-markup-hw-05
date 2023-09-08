@@ -617,7 +617,6 @@ footer .footer-paragraph {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	gap: 16px;
 	min-width: 165px;
 	height: 40px;
 	border-radius: 4px;
@@ -650,6 +649,7 @@ footer .footer-paragraph {
 	width: 24px;
 	height: 24px;
 	fill: #FFFFFF;
+	margin-left: 16px;
 }
 
 /* =============== BACKDROP =============== */
@@ -739,7 +739,7 @@ footer .footer-paragraph {
 
 .contact-form-input-div {
 	position: relative;
-	margin-bottom: 8px;
+	margin: 0 0 8px 0;
 }
 
 .contact-form-label {
