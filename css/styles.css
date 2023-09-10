@@ -118,6 +118,22 @@ nav .logo {
 	color: #404bbf;
 }
 
+
+
+.nav-item-link {
+	position: relative;
+	display: block;
+	color: #2E2F42;
+	padding: 24px 0;
+	transition-property: color;
+	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-item-link:hover,
+.nav-item-link:focus {
+	color: #404BBF;
+}
+
 .current-page::after {
 	content: "";
 	position: absolute;
@@ -130,17 +146,7 @@ nav .logo {
 	background: #404BBF;
 }
 
-.nav-item-link {
-	position: relative;
-	display: block;
-	color: #404bbf;
-	padding: 24px 0;
-	transition-property: color;
-	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.nav-item-link:hover,
-.nav-item-link:focus {
+.current-page {
 	color: #404BBF;
 }
 
